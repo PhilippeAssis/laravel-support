@@ -1,11 +1,11 @@
-#Wiidoo Laravel Support
+# Laravel Support
 Suporte para classes
 
 
-##Fluent Inteface
+## Fluent Inteface
 Basta extender sua classe para `Wiidoo\Support\FluentInterface` que você tera uma classe usando a metodologia de "Interface fluente".
     
-###Exemplo
+### Exemplo
 ```php
 <?php 
 
@@ -41,7 +41,7 @@ class Example extends FluentInterface
 
 Com o modelo acima vamos aplicar a classe:
 
-###Exemplo
+### Exemplo
 ```php
 $example = new Example();
 echo $example->foo('I Love')->bar('coffee.')->join()->result()
