@@ -65,8 +65,6 @@ dump($example->active) // true;
 $example->noActive();
 
 dump($example->active) // false;
-
-//saída ''
 ```
 
 #### Prefixos de negação
@@ -88,7 +86,6 @@ $example->active();// true
 $example->noPublished();// false
 $example->notPublished();// false
 $example->disableAlert();// false
-//saída ''
 ```
 
 ## Ultilidades
