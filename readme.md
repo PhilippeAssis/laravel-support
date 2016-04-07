@@ -3,7 +3,7 @@ Suporte para classes
 
 
 ##Fluent Inteface
-    Basta extender sua classe para `Wiidoo\Support\FluentInterface` que você tera uma classe usando a metodologia de "Interface fluente".
+Basta extender sua classe para `Wiidoo\Support\FluentInterface` que você tera uma classe usando a metodologia de "Interface fluente".
     
 ###Exemplo
 ```php
