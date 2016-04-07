@@ -1,0 +1,23 @@
+{
+    "name": "wiidoo/support",
+    "description": "Routines and methods of suport for classes",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["support", "methods", "class", "fluentinterface", "treatments"],
+    "authors": [
+        {
+            "name": "Philippe Assis",
+            "email": "assis@philippeassis.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wiidoo\\Support\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
