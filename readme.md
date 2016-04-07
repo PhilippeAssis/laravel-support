@@ -90,6 +90,7 @@ $example->disableAlert();// false
 
 ## Ultilidades
 
+| Método                                            | Descrição                                                                                                                                                                                 |
 | mergeConfig($name)                                | Faz um merge de suas propriedades com os valores declaros no arquivo de configuração passado no paramentro `$name`. Exemplo mergeConfig('app.locate') -> $this->locate.                   |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | validatePropertyChange($name, $protected = false) | Verifica se a propriedade é digna de alteração, por padrão toda propriedade publica pode ser modificada, se passar `$protected = true`as propriedades protegidas também retornaram `true` |
