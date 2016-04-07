@@ -60,11 +60,11 @@ Caso queira modificar uma proprieade boleana, vulgo `bool`, basta declara-la par
 ```php
 $example->active();
 
-dump($example->active) // true;
+dump($example->active); // true;
 
 $example->noActive();
 
-dump($example->active) // false;
+dump($example->active); // false;
 ```
 
 #### Prefixos de negação
