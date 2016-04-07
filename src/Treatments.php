@@ -25,6 +25,9 @@ class Treatments
         $this->classCall = get_called_class();
     }
 
+    /**
+     * @param $name
+     */
     protected function mergeConfig($name)
     {
         if (Config::get($name)) {
@@ -38,6 +41,11 @@ class Treatments
         }
     }
 
+    /**
+     * @param $name
+     * @param bool $protected
+     * @return bool
+     */
     protected function validatePropertyChange($name, $protected = false)
     {
         if (property_exists($this->classCall, $name)) {

@@ -28,6 +28,11 @@ class FluentInterface extends Treatments
         return $this;
     }
 
+    /**
+     * @param $name
+     * @param bool $returnBool
+     * @return bool|string
+     */
     protected function searchNegatedName($name, $returnBool = false)
     {
         $prefixes = ['no', 'not', 'disable'];
