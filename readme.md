@@ -1,6 +1,13 @@
 # Laravel Support
 Suporte para classes
 
+## Instalação
+
+Via composer
+```shell
+composer required wiidoo/support
+```
+
 
 ## Fluent Inteface
 Basta extender sua classe para `Wiidoo\Support\FluentInterface` que você tera uma classe usando a metodologia de "Interface fluente".
